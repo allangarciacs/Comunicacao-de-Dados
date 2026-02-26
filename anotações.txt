@@ -53,8 +53,31 @@ EVOLUÇÃO DOS CELULARES
   -> 4G - Internet rápida
   -> 5G - Alta capacidade + baixa latência
 
+-> Principais evoluções
+   - Digitalização do sinal 
+   - Compressão de dados
+   - Protocolos mais eficientes
+   - capacidae de porcessamenteto
 
+ Desafios Técnicos na Transmissão
+  -> A realidade física do sinal
+      - Clima
+  -> Atenuação 
+      - Perda de potência do sinal conforme a distância
+  -> Ruído e interferência 
+      - Interferência eletromagnetica  
+      - Sobreposição de canais wo-fi
+      - Obstáculos físicos do ambiente
 
-
-
-
+ Como lidar com esses desafios? 
+    -> Bits de qualidade
+    -> Checar o cash - Checksue
+    -> Retransmissão
+    -> Confirmação de recebimento (exemplo: TCP)
+    -> Latência (ping)
+        - Tempo que o pacote leva para ir da origem ao destino
+        - Medida em milisegundos (ms)
+    -> Jitter 
+        - Variação no tempo da chegada do pacote
+        - Afeta principlamente áudio e vídeo
+        - SOLUÇÃO: buffer de jitter (atrasa um pouco inicialmente para não ter variação depois)
