@@ -1,0 +1,35 @@
+O que é comunicação de dados?  
+
+É transmitir uma informação para alguém.  
+
+Fonte – De onde sai a mensagem, quem cria a informação; 
+
+Mensagem – A informação por si só; 
+
+Transmissor – Dispositivo que envia a mensagem (computador, telefone etc.); 
+
+Receptor – Dispositivo que recebe a mensagem; 
+
+Meio – caminho físico por onde a mensagem viaja (cabo, ar etc.); 
+
+Protocolo – Conjunto de regras que governa essa comunicação de dados (protocolo). 
+
+ 
+
+Transmissão de dados 
+
+Simplex - Dispositivo é o transmissor envia o receptor recebe (unidirensional). Transmissão de antena. 
+
+Half-duplex – A e B recebem e enviam, mas precisam estar na mesma rede (Bidirensional). Walkye Talkye.   
+
+Full-duplex – A e B podem transmitir e receber dados ao mesmo tempo (100% bidirecional). Internet, telefone fixo, celulares.  
+
+ 
+
+Diferença entre comunicação por telefonia e computação.  
+
+Telefonia – Cabos de energia geram a voz. 
+
+Computação - Conjunto de regras de comunicação.  
+
+ 
