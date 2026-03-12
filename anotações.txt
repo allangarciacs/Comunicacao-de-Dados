@@ -81,3 +81,14 @@ EVOLUÇÃO DOS CELULARES
         - Variação no tempo da chegada do pacote
         - Afeta principlamente áudio e vídeo
         - SOLUÇÃO: buffer de jitter (atrasa um pouco inicialmente para não ter variação depois)
+
+
+qual tipo de dado tal camada trabalha (aula 4) - questão prova
+
+hub - camada fisica (!)
+switch - camada de enlace (2)
+roteador - camada de rede (3)
+
+
+
+
