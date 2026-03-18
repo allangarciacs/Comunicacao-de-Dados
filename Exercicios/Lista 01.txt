@@ -1,0 +1,88 @@
+# LISTA DE EXERCICIOS 1
+
+Aluno: Allan Storch Garcia  
+Data: 18/03/2026  
+
+---
+
+## 1) O que são topologias físicas e lógicas?
+
+A topologia física é a maneira que os nós de uma rede são distribuídos e interligados, ou seja, cabos e
+equipamentos reais (físicos) da rede. Já a lógica, é como os dados circulam na rede, independente da
+organização física.
+
+---
+
+## 2) Explique como funcionam as redes em difusão.
+
+É quando um dispositivo manda dados para todos ou outros ao mesmo tempo, a partir de um meio de comunicação
+compartilhado. Em um canal único de comunicação, esse dispositivo envia a mensagem, todos os dispositivos no
+canal a recebem, cada um deles verifica se a mensagem é destinada a ele, se sim, ele processa, se não, ele
+ignora.
+
+---
+
+## 3) Ao utilizarmos um hub, como será a topologia física e a topologia lógica? Justifique.
+
+Física: todos os computadores terão um cabo conectado ao hub, o tornando o ponto central da conexão. Lógica:
+o hub envia o dado para todos os dispositivos conectados, funcionando a partir do barramento.
+
+---
+
+## 4) No que se refere à escala, como são classificadas as redes de computadores?
+
+Refere-se ao tamanho e alcance geográfico que elas cobrem.
+
+PAN (Personal Area Network): Escala muito pequena (conecta dispositivos próximos.  
+LAN (Local Area Network): Rede local de pequena escala.  
+MAN (Metropolitan Area Network): Rede de médio alcance.  
+WAN (Wide Area Network): Grande escala.  
+
+---
+
+## 5) Relacione as camadas abaixo com suas respectivas Unidades de Dados de Protocolo:
+
+( D ) Camada de Rede A. Quadros  
+( A ) Camada de Enlace B. Segmentos  
+( B ) Camada de Transporte C. Bits  
+( C ) Camada Física D. Pacotes  
+
+---
+
+## 6) Descreva as três principais funções da Camada de Apresentação (Camada 6).
+
+Converter os dados para um formato que a camada de aplicação possa aceitar e transmitir pela rede.  
+Compressão de dados: aumentar o desempenho da rede.  
+Criptografia: suporta protocolos SSL/TLS (Secure Sockets Layer / Transport Layer Security).  
+
+---
+
+## 7) No Modelo OSI, a camada responsável por converter as tensões elétricas recebidas pela placa de rede em
+bits 0 ou 1 é a camada:
+
+a) de transporte.  
+b) física. (X) 
+c) de rede.  
+d) de enlace.  
+e) de apresentação.  
+
+---
+
+## 8) Explique detalhadamente o funcionamento dos protocolos TCP e UDP, identificando em qual camada do Modelo OSI eles operam.
+
+O serviço garantido orientado a conexão tem o nome de TCP (transmission control protocol), é um serviço conectado à internet.
+Quando esse tipo de serviço é utilizado, o cliente e o servidor trocam pacotes de controle entre si antes de enviarem os
+pacotes de dados, formando assim, o processo chamado de handshaking, (ou procedimento de estabelecimento de conexão), onde
+são estabelecidos os parâmetros para a comunicação. Uma vez que o handshaking é concluído, é estabelecida a conexão, e, dessa
+forma, os dois sistemas terminais podem trocar dados. O serviço de transferência garantida assegura que os dados trocados são
+livres de erros, devido a mensagens de reconhecimento e retransmissão de pacotes (quando o sistema terminal A manda um pacote
+para B, B envia um reconhecimento, assim que A recebe o reconhecimento de B ele confirma que o pacote foi recebido, e, caso A
+não receba o reconhecimento, é assumido que o pacote foi perdido e A faz uma nova transmissão). O TCP integra um serviço de
+controle de fluxo, que assegura que nenhum dos lados da comunicação envie pacotes rápidos de mais.
+
+Já no serviço não orientado a conexão, chamado de UDP (user datagram protocol), é um serviço sem conexão da internet, onde não
+há handshaking quando uma aplicação quer enviar pacotes ao outro lado, ou seja, a aplicação simplesmente envia os pacotes, assim,
+não há garantia de que o pacote foi recebido. Além disso, não há nenhum controle de fluxo. É um serviço mais simples, o que faz
+os dados serem enviados mais rapidamente.
+
+Ambos operam na camada de transporte.
