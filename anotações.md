@@ -89,8 +89,7 @@ hub - camada fisica (1)
 switch - camada de enlace (2)
 roteador - camada de rede (3)
 
-Trabalho - Mapa Mental 
-<img width="1000" height="1437" alt="image" src="https://github.com/user-attachments/assets/b0798b34-4058-41d6-85c0-b25b1f525ac6" />
+Trabalho - Mapa Mental
 
 
 
