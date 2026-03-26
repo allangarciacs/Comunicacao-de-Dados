@@ -1,7 +1,7 @@
 --- Aula 01 | 19/02/26 ---
 
 O que é comunicação de dados?  
- - É transmitir uma informação para alguém.  
+ - É transmitir uma informação para 1 ou mais pessoas atravéz de um meio de transmissão.
 
    - Fonte               – De onde sai a mensagem, quem cria a informação; 
      - Mensagem            – A informação por si só; 
@@ -66,7 +66,7 @@ EVOLUÇÃO DOS CELULARES
       - Perda de potência do sinal conforme a distância
   -> Ruído e interferência 
       - Interferência eletromagnetica  
-      - Sobreposição de canais wo-fi
+      - Sobreposição de canais wi-fi
       - Obstáculos físicos do ambiente
 
  Como lidar com esses desafios? 
@@ -85,10 +85,14 @@ EVOLUÇÃO DOS CELULARES
 
 qual tipo de dado tal camada trabalha (aula 4) - questão prova
 
-hub - camada fisica (!)
+hub - camada fisica (1)
 switch - camada de enlace (2)
 roteador - camada de rede (3)
 
+Trabalho - Mapa Mental 
+<img width="1000" height="1437" alt="image" src="https://github.com/user-attachments/assets/b0798b34-4058-41d6-85c0-b25b1f525ac6" />
 
 
+
+ 
 
