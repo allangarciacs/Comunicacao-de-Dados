@@ -1,6 +1,9 @@
---- Aula 01 | 19/02/26 ---
+--- 
+Anotações da disciplina de Comunicação de Dados
+---
 
-O que é comunicação de dados?  
+ ## O QUE É COMUNICAÇÃO DE DADOS?
+<pre>
  - É transmitir uma informação para 1 ou mais pessoas atravéz de um meio de transmissão.
 
    - Fonte               – De onde sai a mensagem, quem cria a informação; 
@@ -9,27 +12,32 @@ O que é comunicação de dados?
          - Receptor            – Dispositivo que recebe a mensagem; 
            - Meio                – caminho físico por onde a mensagem viaja (cabo, ar etc.); 
              - Protocolo           – Conjunto de regras que governa essa comunicação de dados (protocolo). 
+</pre>
 
-TRANSMISSÃO DE DADOS 
+## TRANSMISSÃO DE DADOS 
+<pre>
  - Simplex - Dispositivo é o transmissor envia o receptor recebe (unidirensional). Transmissão de antena. 
  - Half-duplex – A e B recebem e enviam, mas precisam estar na mesma rede (Bidirensional). Walkye Talkye.   
  - Full-duplex – A e B podem transmitir e receber dados ao mesmo tempo (100% bidirecional). Internet, telefone fixo, celulares.  
+</pre>
 
-Diferença entre comunicação por telefonia e computação.  
+## Diferença entre comunicação por TELEFONIA e COMPUTAÇÃO.  
  - Telefonia – Cabos de energia geram a voz. 
  - Computação - Conjunto de regras de comunicação.  
 
- --- Aula 02 | 26/02/26 ---
+## COMUTAÇÃO
+- é conectar pontos para que informações sejam trocadas. 
 
-Comutação é conectar pontos para que informações sejam trocadas. 
-
-COMUTAÇÃO DE CIRCUITOS
+## COMUTAÇÃO DE CIRCUITOS
+<pre>
   - É um processo de conectar 2 ou mais pontos de uma rede, para que seja permitida a troca de informações -> A --------- B.
     
   -> Vantagens    - Garantia de banda       | Baixa latência constânte | Qualidade previsivel
   -> Desvantagens - Desperdício de recursos | Baixa eficiência         | Escalabilidade limitada
+</pre>
 
-COMUTAÇÃO DE PACOTES 
+## COMUTAÇÃO DE PACOTES 
+<pre>
   - A mensagem é fragmentada em pacotes, até chegar no destino e ser reorganizada novamente.
     - Cada pacote contém
       - Dados
@@ -39,27 +47,36 @@ COMUTAÇÃO DE PACOTES
 
   -> Vantagens    - Uso eficiente da rede | Maior escalabilidade        | Flexibilidade das rotas
   -> Desvantagens - Atraso (latência)     | Possível perda de pacotes   | Qualidade não é garantida por padrão
+</pre>
 
+## ROTEAMENTO
+<pre>
   - O papel do roteamento é encontrar o melhor caminho dos pacotoes para o destino. O melhor caminho é definido a partir da:
     - Número de saltos - Representa quantos roteadores ou nós um pacote deve atravessar. 
     - Latencia 
     - Largura de dados 
     - Congestionamento   
+</pre>
 
-EVOLUÇÃO DOS CELULARES
+## EVOLUÇÃO DOS CELULARES
+<pre>
   -> 1G - Voz
   -> 2G - Voz e SMS
   -> 3G - Dados móveis
   -> 4G - Internet rápida
   -> 5G - Alta capacidade + baixa latência
+</pre>
 
--> Principais evoluções
+## PRINCIPAIS EVOLUÇÕES
+<pre>
    - Digitalização do sinal 
    - Compressão de dados
    - Protocolos mais eficientes
    - capacidae de porcessamenteto
+</pre>
 
- Desafios Técnicos na Transmissão
+## DESAFIOS TÉCNICOS NA TRANSMISSÃO
+<pre>
   -> A realidade física do sinal
       - Clima
   -> Atenuação 
@@ -81,15 +98,7 @@ EVOLUÇÃO DOS CELULARES
         - Variação no tempo da chegada do pacote
         - Afeta principlamente áudio e vídeo
         - SOLUÇÃO: buffer de jitter (atrasa um pouco inicialmente para não ter variação depois)
-
-
-qual tipo de dado tal camada trabalha (aula 4) - questão prova
-
-hub - camada fisica (1)
-switch - camada de enlace (2)
-roteador - camada de rede (3)
-
-Trabalho - Mapa Mental
+   </pre>     
 
 
 
