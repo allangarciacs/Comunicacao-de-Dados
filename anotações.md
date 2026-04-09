@@ -26,18 +26,16 @@ Anotações da disciplina de Comunicação de Dados
  - Computação - Conjunto de regras de comunicação.  
 
 ## COMUTAÇÃO
+<pre>
 - é conectar pontos para que informações sejam trocadas. 
 
-## COMUTAÇÃO DE CIRCUITOS
-<pre>
+COMUTAÇÃO DE CIRCUITOS
   - É um processo de conectar 2 ou mais pontos de uma rede, para que seja permitida a troca de informações -> A --------- B.
-    
+ 
   -> Vantagens    - Garantia de banda       | Baixa latência constânte | Qualidade previsivel
   -> Desvantagens - Desperdício de recursos | Baixa eficiência         | Escalabilidade limitada
-</pre>
 
-## COMUTAÇÃO DE PACOTES 
-<pre>
+COMUTAÇÃO DE PACOTES 
   - A mensagem é fragmentada em pacotes, até chegar no destino e ser reorganizada novamente.
     - Cada pacote contém
       - Dados
@@ -58,17 +56,16 @@ Anotações da disciplina de Comunicação de Dados
     - Congestionamento   
 </pre>
 
-## EVOLUÇÃO DOS CELULARES
+## EVOLUÇÃO 
 <pre>
+DOS CELULARES
   -> 1G - Voz
   -> 2G - Voz e SMS
   -> 3G - Dados móveis
   -> 4G - Internet rápida
   -> 5G - Alta capacidade + baixa latência
-</pre>
 
-## PRINCIPAIS EVOLUÇÕES
-<pre>
+PRINCIPAIS
    - Digitalização do sinal 
    - Compressão de dados
    - Protocolos mais eficientes
