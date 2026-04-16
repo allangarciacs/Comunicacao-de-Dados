@@ -2,7 +2,7 @@
 Anotações da disciplina de Comunicação de Dados
 ---
 
- ## O QUE É COMUNICAÇÃO DE DADOS?
+## O QUE É COMUNICAÇÃO DE DADOS?
 <pre>
  - É transmitir uma informação para 1 ou mais pessoas atravéz de um meio de transmissão.
 
@@ -97,7 +97,11 @@ PRINCIPAIS
         - SOLUÇÃO: buffer de jitter (atrasa um pouco inicialmente para não ter variação depois)
    </pre>     
 
-
-
+<pre>
+Malha completa (Full Mesh)
+- Fórmula p calcular a quantidade de links físicos (conexões ponto a ponto)
+n = qtd de nós
+n . ( n - 1) / 2
+</pre>
  
 
